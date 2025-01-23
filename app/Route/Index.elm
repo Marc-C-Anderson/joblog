@@ -84,6 +84,7 @@ view app shared =
             ]
         , Route.Blog__Slug_ { slug = "hello" }
             |> Route.link [] [ Html.text "My blog post" ]
+        , Html.div [] []
         , Route.Job__Slug_ { slug = "hello" }
             |> Route.link [] [ Html.text "My job post" ]
         ]
